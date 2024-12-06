@@ -1,3 +1,3 @@
 # When you feel silly, let those boats jump!
-## Известные баги:
-Сброс скорости при прыжке
+## fu mojang
+https://bugs.mojang.com/browse/MC-93559
