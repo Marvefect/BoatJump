@@ -9,7 +9,7 @@
             }
         },
         "vehicle": {
-            "type": "#minecraft:boat"
+            "type": "#bj:boat_alike"
         }
     }
 }

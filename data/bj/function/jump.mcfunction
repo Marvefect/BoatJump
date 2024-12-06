@@ -1,3 +1,4 @@
-execute store result entity @s Motion[0] double 0.1 run scoreboard players get @s bj.x2
-data modify entity @s Motion[1] set value 0.75d
-execute store result entity @s Motion[2] double 0.1 run scoreboard players get @s bj.z2
+execute at @s if score @s bj.jt matches 1 run data modify entity @e[type=#bj:boat_alike,limit=1,sort=nearest] Motion[1] set value 0.4d
+execute at @s if score @s bj.jt matches 3 run data modify entity @e[type=#bj:boat_alike,limit=1,sort=nearest] Motion[1] set value 0.3d
+execute at @s if score @s bj.jt matches 5 run data modify entity @e[type=#bj:boat_alike,limit=1,sort=nearest] Motion[1] set value 0.2d
+execute at @s if score @s bj.jt matches 7 run data modify entity @e[type=#bj:boat_alike,limit=1,sort=nearest] Motion[1] set value 0.1d
